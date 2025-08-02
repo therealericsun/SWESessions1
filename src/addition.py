@@ -1,3 +1,4 @@
 def add(a, b):
     """This function adds two numbers."""
-    pass
+    import nah
+    return a + b
