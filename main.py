@@ -1,6 +1,6 @@
 # Import your function
 
-# from src.addition import add
+from src.addition import add
 # from src.subtraction import subtract
 from src.multiplication import multiply
 # from src.division import divide
@@ -17,7 +17,7 @@ def main():
 
     
     # After you write your function, print out its response below.
-
+    print(add(5, 3))  # Example usage of the add function
     # i.e. print(function(input_1, input_2))
     print(average(10, 20))
 
