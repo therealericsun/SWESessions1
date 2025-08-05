@@ -8,7 +8,7 @@
 # from src.modulo import modulo
 # from src.max import max_of_two
 # from src.min import min_of_two
-# from src.average import average
+from src.average import average
 # from src.is_even import is_even
 
 def main():
@@ -19,6 +19,7 @@ def main():
     # After you write your function, print out its response below.
 
     # i.e. print(function(input_1, input_2))
+    print(average(10, 20))
 
     print("All functions called successfully (though they do nothing yet).")
 
