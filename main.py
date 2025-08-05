@@ -2,7 +2,7 @@
 
 # from src.addition import add
 # from src.subtraction import subtract
-# from src.multiplication import multiply
+from src.multiplication import multiply
 # from src.division import divide
 # from src.power import power
 # from src.modulo import modulo
@@ -20,7 +20,8 @@ def main():
 
     # i.e. print(function(input_1, input_2))
 
-    print("All functions called successfully (though they do nothing yet).")
+    #print("All functions called successfully (though they do nothing yet).")
+    print(multiply(3, 4))
 
 if __name__ == "__main__":
     main()
