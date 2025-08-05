@@ -1,7 +1,7 @@
 # Import your function
 
 # from src.addition import add
-# from src.subtraction import subtract
+from src.subtraction import subtract
 # from src.multiplication import multiply
 # from src.division import divide
 # from src.power import power
@@ -20,7 +20,7 @@ def main():
 
     # i.e. print(function(input_1, input_2))
 
-    print("All functions called successfully (though they do nothing yet).")
+    print("subtract(10, 5) =", subtract(10, 5))
 
 if __name__ == "__main__":
     main()
